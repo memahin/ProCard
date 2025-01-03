@@ -1,6 +1,5 @@
 package com.mahin.procard
 
-
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
@@ -96,11 +95,8 @@ fun CreateProCard() {
                 }else{
                     Box() {  }
                 }
-
             }
         }
-
-
     }
 }
 
@@ -117,15 +113,12 @@ fun Content(){
             shape = RoundedCornerShape(corner = CornerSize(6.dp)),
             border = BorderStroke(width = 2.dp, color = LightGray)
         ) {
-
             Protfolio(data = listOf("Project 1",
                 "Project 2",
                 "Project 3",
                 "Project 4"))
-
         }
     }
-
 }
 
 @Composable
@@ -136,7 +129,6 @@ fun Protfolio(data: List<String>) {
             Text(item)
         }
     }
-
 }
 
 @Composable
@@ -179,7 +171,6 @@ private fun CreateImageProfile(modifier: Modifier = Modifier) {
         )
     }
 }
-
 
 @Preview(showBackground = true)
 @Composable
