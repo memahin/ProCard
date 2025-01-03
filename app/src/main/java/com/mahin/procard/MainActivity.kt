@@ -74,7 +74,7 @@ fun CreateProCard() {
             )
         ) {
             Column(modifier = Modifier
-                .height(600.dp)
+                .height(800.dp)
                 .width(400.dp),
                 verticalArrangement = Arrangement.Top,
                 horizontalAlignment = Alignment.CenterHorizontally)
@@ -85,8 +85,6 @@ fun CreateProCard() {
                 Button(
                     onClick = {
                         buttonClickedState.value = !buttonClickedState.value
-
-
 
                     }
                 ) {
